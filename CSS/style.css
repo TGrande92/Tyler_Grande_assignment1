@@ -1,0 +1,51 @@
+/*Colours
+black : #26233A
+rose : #ebbcba
+gold : #f6c177
+love : #eb6f92
+*/
+
+.navlist {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navitem {
+    list-style:none;
+    margin-right: 5%;
+}
+
+footer{
+    display:flex;
+    color:#eb6f92;
+    justify-content: center;
+    align-items:flex-end;
+    height: 90vh;
+}
+
+body{
+    display: block;
+    background-color: #26233A;
+}
+.slide-out{
+    background-color: #ebbcba; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*Anchor*/
+a{
+    color:#ebbcba
+}
+a:visited{
+    color:#f6c177
+}
+a:hover {
+    color: #eb6f92
+
+}
