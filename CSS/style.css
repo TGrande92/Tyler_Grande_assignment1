@@ -2,9 +2,9 @@
 black : #26233A
 rose : #ebbcba
 gold : #f6c177
-love : #eb6f92
+highlight high : #524F67
 */
-
+/*nav*/
 .navlist {
     display: flex;
     justify-content: flex-end;
@@ -14,7 +14,7 @@ love : #eb6f92
     list-style:none;
     margin-right: 5%;
 }
-
+/*main*/
 footer{
     display:flex;
     color:#eb6f92;
@@ -28,14 +28,18 @@ body{
     background-color: #26233A;
 }
 .slide-out{
-    background-color: #ebbcba; /* Green */
+    background-color: #524F67;
     border: none;
-    color: white;
+    color: #f6c177;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.new-note{
+    background-color: #ebbcba;
+    font-size: large;
 }
 
 /*Anchor*/
@@ -47,5 +51,6 @@ a:visited{
 }
 a:hover {
     color: #eb6f92
-
 }
+
+/*Slide out menu*/
