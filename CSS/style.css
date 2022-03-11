@@ -8,11 +8,16 @@ highlight high : #524F67
 .navlist {
     display: flex;
     justify-content: flex-end;
+    right: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    margin: 0;
 }
 
 .navitem {
     list-style:none;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 /*main*/
 footer{
@@ -20,13 +25,26 @@ footer{
     color:#eb6f92;
     justify-content: center;
     align-items:flex-end;
+    /* background-color: #524F67; */
     /* height: 90vh; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
 }
 
 body{
-    display: block;
+    /* display: block; */
     background-color: #26233A;
     height:100vh;
+    margin: 0;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
 }
 .slide-out {
     background-color: #524F67;
@@ -55,12 +73,14 @@ a:hover {
 /*Slide out menu*/
 .menu {
     display:flex;
-    width: 15%;
+    width: 20vw;
     background-color: #524F67;
     max-height: fit-content;
     justify-content: auto;
     height: 100%;
     min-height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .slide-in{
     background-color: #eb6f92;
@@ -72,3 +92,60 @@ a:hover {
     width: 15%;
     height: 15%;
 }
+textarea{
+    width: 20vw;
+    height: 20vh;
+    box-sizing: border-box;
+    resize: none;
+
+}
+.restpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+.restpageindex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.slideinbut{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+}
+.textbox {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    height: 30vh;
+    background-color: #eb6f92;
+    width: 30vw; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 30vh;
+    background-color: #eb6f92;
+    width: 30vw;
+    justify-content: flex-end;
+}
+.notebut{
+    justify-content: flex-start;
+}
+.savedel{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.new-note{
+    width: 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
