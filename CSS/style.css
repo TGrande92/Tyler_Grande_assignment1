@@ -50,7 +50,7 @@ body{
     height:100vh;
     margin: 0;
 }
-.main{
+main{
     display:flex;
     flex-direction: row;
     height: 100vh;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 /*Slide out menu*/
-.menu {
+menu {
     display:flex;
     width: 20vw;
     background-color: #524F67;
@@ -96,20 +96,21 @@ a:hover {
     flex-direction: column;
 }
 .slide-in{
-    background-color: #eb6f92;
+    background-color: #26233A;
     border: none;
     color: #f6c177;
     padding: 15px 32px;
     text-align:center;
     font-size: 16px;
     width: 15%;
-    height: 15%;
+    height: auto;
 }
 textarea{
     width: 20vw;
     height: 20vh;
     box-sizing: border-box;
     resize: none;
+    font-family: 'lato', serif;
 }
 .restpage {
     display: flex;
@@ -134,7 +135,6 @@ textarea{
     flex-wrap: wrap;
     align-content: center;
     height: 30vh;
-    background-color: #eb6f92;
     width: 30vw;
     justify-content: flex-end;
 }
@@ -155,7 +155,6 @@ textarea{
         flex-wrap: wrap;
         align-content: center;
         height: 30vh;
-        background-color: #eb6f92;
         width: 50vw;
         justify-content: flex-end;
     }
@@ -168,7 +167,7 @@ textarea{
     .new-note{
         font-size: small;
     }
-    .menu{
+    menu{
         width:50vw;
         
     }
