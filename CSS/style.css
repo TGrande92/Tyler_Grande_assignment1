@@ -4,6 +4,8 @@ rose : #ebbcba
 gold : #f6c177
 highlight high : #524F67
 */
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Lora', serif;*/   
 /*nav*/
 .navlist {
     display: flex;
@@ -14,28 +16,36 @@ highlight high : #524F67
     position: fixed;
     margin: 0;
 }
-
 .navitem {
     list-style:none;
     margin-right: 3%;
 }
+/*font*/
+ul {
+    font-family: 'Lora', serif;
+}
+button{
+    font-family: 'Lora', serif;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+}
+
 /*main*/
 footer{
     display:flex;
     color:#eb6f92;
     justify-content: center;
     align-items:flex-end;
-    /* background-color: #524F67; */
-    /* height: 90vh; */
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     position: fixed;
+    font-family: 'Lora', serif;
 }
 
 body{
-    /* display: block; */
     background-color: #26233A;
     height:100vh;
     margin: 0;
@@ -61,13 +71,16 @@ body{
 
 /*Anchor*/
 a{
-    color:#ebbcba
+    color:#ebbcba;
+    font-family: 'Lora', serif;
 }
 a:visited{
-    color:#f6c177
+    color:#f6c177;
+    font-family: 'Lora', serif;
 }
 a:hover {
-    color: #eb6f92
+    color: #eb6f92;
+    font-family: 'Lora', serif;
 }
 
 /*Slide out menu*/
@@ -97,7 +110,6 @@ textarea{
     height: 20vh;
     box-sizing: border-box;
     resize: none;
-
 }
 .restpage {
     display: flex;
@@ -118,13 +130,6 @@ textarea{
     width: auto;
 }
 .textbox {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    height: 30vh;
-    background-color: #eb6f92;
-    width: 30vw; */
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -144,8 +149,3 @@ textarea{
     width: 10vw;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
