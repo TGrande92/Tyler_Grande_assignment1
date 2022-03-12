@@ -149,3 +149,27 @@ textarea{
     width: 10vw;
 }
 
+@media only screen and (max-width: 600px) {
+    .textbox{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 30vh;
+        background-color: #eb6f92;
+        width: 50vw;
+        justify-content: flex-end;
+    }
+    textarea{
+        width: 40vw;
+        height: 20vh;
+        box-sizing: border-box;
+        resize: none;
+    }
+    .new-note{
+        font-size: small;
+    }
+    .menu{
+        width:50vw;
+        
+    }
+      }
